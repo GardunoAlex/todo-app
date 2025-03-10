@@ -1,0 +1,66 @@
+body{
+  background-color: gray;
+  color: white;
+  text-align: center;
+  
+}
+
+h1{
+  padding-top: 30px;
+}
+ul{
+  padding: 0;
+  align-items: center;
+  margin: 50px;
+}
+
+li{
+  font-size: 1.7rem;
+  font-weight: bold;
+  padding: 10px;
+  margin: 15px;
+  display: flex;
+  border-radius: 5px;
+  align-items: center;
+  justify-self: center;
+}
+
+li:hover{
+  box-shadow: 0px 5px 15px rgb(65, 65, 65);
+  border-radius: 15px;
+}
+
+button{
+  border-radius: 10px;
+  transition: background-color 0.7s ease;
+  margin: 10px;
+  background-color: whitesmoke;
+  font-size:1rem ;
+}
+
+.add-button{
+  background-color: whitesmoke;
+}
+
+.add-button:hover{
+  background-color: hsl(126, 70%, 88%);
+}
+
+.delete-button:hover{
+  background-color: hsl(0, 100%, 89%);
+}
+
+.edit-button:hover{
+  background-color: hsl(63, 68%, 84%);
+}
+
+input[type ="text"]{
+
+  padding: 10px;
+  border: 2px solid;
+  border-radius: 10px;
+}
+
+.text{
+  flex: 1;
+}
