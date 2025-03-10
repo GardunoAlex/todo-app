@@ -48,6 +48,7 @@ button{
 
 .delete-button:hover{
   background-color: hsl(0, 100%, 89%);
+
 }
 
 .edit-button:hover{
